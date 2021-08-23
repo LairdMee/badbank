@@ -1,4 +1,11 @@
+BadBankRefactorReact
+
+I added a bankform function which has main logic for creataccount.js, deposit.js, withdraw.js and balance.js that way those files are much cleaner and easy to maintain. I chose this part to refactor as the structure for each of these component can be shared. 
+The purpose is for learning how to refactor and create a short React Banking Application, and how to use the React App to connect with MongoDB using routes. 
+The Tech stack used are React framework, Node/ NPM package and MONGO DB. 
+The main features used: The main functionality was to pass in props that could help me determine the component to load and adding of 'successbuttonmessage' to createmessage function that can be shared for all the components-form function. 
 # Getting Started with Create React App
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
